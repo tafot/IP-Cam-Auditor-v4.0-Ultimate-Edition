@@ -1,2 +1,26 @@
-# Scansiona tutti i target nel file
-python ipcam_auditor.py list targets.txt --exploits --snapshot -o report_da_lista
+# IP Cam Auditor v4.0 — File targets di esempio
+# Formato: IP:PORTA (una per riga)
+# Linee che iniziano con # sono commenti (ignorate)
+#
+# Esempi di target singoli:
+192.168.1.100:80
+192.168.1.101:554
+192.168.1.105:8080
+10.0.0.50:80
+10.0.0.51:443
+172.16.0.100:80
+172.16.0.101:554
+#
+# Target con porte non standard:
+203.0.113.50:8888
+203.0.113.51:9090
+#
+# Target remoti (internet-facing):
+1.2.3.4:80
+5.6.7.8:554
+#
+# Range CIDR NON supportati in questo file
+# (usa: python ipcam_auditor.py scan 192.168.1.0/24)
+#
+# Indirizzi IPv6 (se supportati dalla rete):
+# [2001:db8::1]:80
