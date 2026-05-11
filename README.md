@@ -31,6 +31,6 @@ IP Cam Auditor è un tool completo per penetration test su telecamere IP. Combin
 ## 🚀 Installazione
 
 ```bash
-git clone https://github.com/tuo-username/ipcam-auditor.git
+git clone https://github.com/tafot/ipcam-auditor.git
 cd ipcam-auditor
 pip install requests dnspython onvif-zeep opencv-python shodan aiohttp
