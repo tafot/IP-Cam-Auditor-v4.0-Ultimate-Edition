@@ -1,0 +1,2 @@
+# Scansiona tutti i target nel file
+python ipcam_auditor.py list targets.txt --exploits --snapshot -o report_da_lista
